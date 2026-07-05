@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Packaged zips / extracted packages (regenerated on build)
+*.zip
+mo_media_converter_pro_v3_package/
+
+# Media & generated output (never commit large or copyrighted files)
+*.mkv
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.webm
+*.m4v
+*.flv
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.srt
+converted/
+downloads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
